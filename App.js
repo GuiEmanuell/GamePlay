@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
-  Platform,
-  ScrollView,
-  StatusBar as RNStatusBar,
-} from 'react-native';
-import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
+import { SignIn } from './src/screens/SignIn';
 import { Home } from './src/screens/Home';
+import { New } from './src/screens/New';
 import { AppointmentDetails } from './src/screens/AppointmentDetails';
 import theme from './src/theme';
 
