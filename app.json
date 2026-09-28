@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Ignite Gym",
-    "slug": "ignite-gym",
+    "name": "Gameplay",
+    "slug": "Game-Play",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -29,6 +29,9 @@
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
-    }
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }
